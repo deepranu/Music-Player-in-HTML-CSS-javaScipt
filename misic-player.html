@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="music.css" />
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <title>Music Player</title>
+     <link rel="icon" type="image/x-icon" href="media\j.png">
+  </head>
+
+  <body class="bd">
+  	<div>
+
+      <div class="header">
+        <div class="logo"> <a class="home" href="#home"><img class="logo" src="media\logobase2.png"></a> </div>
+        <div class="ds"> <a class="title" href="#title"> <div class="ds">Deepak<br>Studio </div></a> </div>
+        <div class="favourite"> <a class="favourite" href="#favourite"><div class="favourite">Favourite</div></a></div>
+        <div class="container">
+          
+        
+        <div  class="search-box">
+
+          <button class="voice1" type="submit"><img class="voice" src="media\bar.png"></button> 
+          <input class="bar" type="text" placeholder="Search"/>
+          <button class="voice1" type="submit"><img class="voice" src="media\voice.png"></button> 
+        </div>
+
+
+        </div>
+        <div class="bell"> <a class="Notification" href="#Notification"><img class="bell" src="media\belll.png"></a></div>
+        <div class="dp"> <a class="Profile" href="#Profile"><img class="dp" src="media\profile_picture.png"></a></div>
+        
+      </div>
+    </div>
+
+
+
+      <div class="main">
+    
+
+      <div class="co">
+        <span class="slider" id="slider1"></span>
+        <span class="slider" id="slider2"></span>
+        <span class="slider" id="slider3"></span>
+
+
+
+        <div class="imgCo">
+
+           <div class="slide_div" id="slide_1">
+            <img src="media\crousel\carousel1.jpg" alt="" class="img" id="img1">
+            <a href="#slider1" class="button" id="button1"></a>
+           </div>
+           <div class="slide_div" id="slide_2">
+            <img src="media\crousel\carousel2.jpg" alt="" class="img" id="img2">
+            <a href="#slider2" class="button" id="button2"></a>
+           </div>
+           <div class="slide_div" id="slide_3">
+            <img src="media\crousel\carousel3.jpg" alt="" class="img" id="img3">
+            <a href="#slider3" class="button" id="button3"></a>
+           </div>
+
+        </div>
+        <div>
+
+
+        <div > 
+            <div class="qu"> <h1>Queue</h1> </div> 
+              <div class="dropdown">
+                <button class="dropbtn">Queue </button>
+                <div class="dropdown-content">
+                <a href="#">Playlist</a>
+                <a href="#">Favourite Song</a> </div>
+            </div>
+        </div>
+      </div>
+
+
+        
+      </div>
+      
+        <div class="lr">
+          <h2>Latest Relase</h2></div>
+            
+
+
+            <div class="latest-songs-list">
+              <div class="one-c">
+
+                <div class="one-c-i open-btn" onclick="openNav()">
+                <img class="background-image one-i1" src="media\songs\willow.jpeg" alt="Background Image">
+                <img class="main-image one-i1" src="media\website_logo.png" alt="First Click Image">
+                <img class="secondary-image one-i1" src="media\pause.png" alt="Second Click Image">
+                </div>
+
+                <h> Brown Rang</h> <p>Nov 12 2016</p>
+                <div class="dropdown1">
+                <button class="dropbtn1"><img class="one-i2"src="media/dot.png"> </button>
+                <div class="dropdown-content1">
+                <a href="#"><img style="height: 20px ; weidth: 20px ; margin-right: 10px ;"  src ="media/play.png">Play Now</a>
+                <a href="#"><img style="height: 20px ; weidth: 20px ; margin-right: 10px ;"  src ="media/plus.png">Add to Queue</a>
+                <a href="#"><img style="height: 20px ; weidth: 20px ; margin-right: 10px ;"  src ="media/add.png">Add to Favoirate</a>
+                <a href="#"><img style="height: 20px ; weidth: 20px ; margin-right: 10px ;"  src ="media/get.png">Get Info</a>
+                </div>
+            </div>
+            <h5>5:54</h5></div>
+
+
+              <div class="one-c">
+
+                <div class="one-c-i open-btn" onclick="openNav()">
+                <img class="background-image one-i1" src="media\songs\willow.jpeg" alt="Background Image">
+                <img class="main-image one-i1" src="media\website_logo.png" alt="First Click Image">
+                <img class="secondary-image one-i1" src="media\pause.png" alt="Second Click Image">
+                </div>
+
+                <h> Brown Rang</h> <p>Nov 12 2016</p>
+                <div class="dropdown1">
+                <button class="dropbtn1"><img class="one-i2"src="media/dot.png"> </button>
+                <div class="dropdown-content1">
+                <a href="#"><img style="height: 20px ; weidth: 20px ; margin-right: 10px ;"  src ="media/play.png">Play Now</a>
+                <a href="#"><img style="height: 20px ; weidth: 20px ; margin-right: 10px ;"  src ="media/plus.png">Add to Queue</a>
+                <a href="#"><img style="height: 20px ; weidth: 20px ; margin-right: 10px ;"  src ="media/add.png">Add to Favoirate</a>
+                <a href="#"><img style="height: 20px ; weidth: 20px ; margin-right: 10px ;"  src ="media/get.png">Get Info</a>
+                </div>
+            </div>
+            <h5>5:54</h5></div>
+            </div>
+
+
+            <div class="latest-songs-list1">
+              <div class="one-c">
+
+                <div class="one-c-i open-btn" onclick="openNav()">
+                <img class="background-image one-i1" src="media\songs\willow.jpeg" alt="Background Image">
+                <img class="main-image one-i1" src="media\website_logo.png" alt="First Click Image">
+                <img class="secondary-image one-i1" src="media\pause.png" alt="Second Click Image">
+                </div>
+
+                <h> Brown Rang</h> <p>Nov 12 2016</p>
+                <div class="dropdown1">
+                <button class="dropbtn1"><img class="one-i2"src="media/dot.png"> </button>
+                <div class="dropdown-content1">
+                <a href="#"><img style="height: 20px ; weidth: 20px ; margin-right: 10px ;"  src ="media/play.png">Play Now</a>
+                <a href="#"><img style="height: 20px ; weidth: 20px ; margin-right: 10px ;"  src ="media/plus.png">Add to Queue</a>
+                <a href="#"><img style="height: 20px ; weidth: 20px ; margin-right: 10px ;"  src ="media/add.png">Add to Favoirate</a>
+                <a href="#"><img style="height: 20px ; weidth: 20px ; margin-right: 10px ;"  src ="media/get.png">Get Info</a>
+                </div>
+            </div>
+            <h5>5:54</h5></div>
+              <div class="one-c">
+
+                <div class="one-c-i open-btn" onclick="openNav()">
+                <img class="background-image one-i1" src="media\songs\willow.jpeg" alt="Background Image">
+                <img class="main-image one-i1" src="media\website_logo.png" alt="First Click Image">
+                <img class="secondary-image one-i1" src="media\pause.png" alt="Second Click Image">
+                </div>
+
+
+                <h> Brown Rang</h> <p>Nov 12 2016</p>
+              <div class="dropdown1">
+                <button class="dropbtn1"><img class="one-i2"src="media/dot.png"> </button>
+                <div class="dropdown-content1">
+                <a href="#"><img style="height: 20px ; weidth: 20px ; margin-right: 10px ;"  src ="media/play.png">Play Now</a>
+                <a href="#"><img style="height: 20px ; weidth: 20px ; margin-right: 10px ;"  src ="media/plus.png">Add to Queue</a>
+                <a href="#"><img style="height: 20px ; weidth: 20px ; margin-right: 10px ;"  src ="media/add.png">Add to Favoirate</a>
+                <a href="#"><img style="height: 20px ; weidth: 20px ; margin-right: 10px ;"  src ="media/get.png">Get Info</a>
+                </div>
+            </div>
+            <h5>5:54</h5></div>
+            </div>
+
+
+
+            
+
+
+
+
+        
+        <div class="Popular-Artist">
+          <h2>Popular Artist</h2></div>
+
+
+
+          <div class="arist-list">
+
+            <div class="bin"> <a href="mini-player.html"> <img style="height: 100px ; weidth: 100px ; border-radius: 50%;" src="media\popular artists\yo yo honey singh.jpg"> <img class="main-image" style="height: 100px ; weidth: 100px ; " src="media\website_logo.png"></a><p>honey singh</p></div>
+
+
+           <div class="bin"> <a href="mini-player.html"> <img style="height: 100px ; weidth: 100px ; border-radius: 50%;" src="media\popular artists\billie eilish.jpg"> <img class="main-image" style="height: 100px ; weidth: 100px ; " src="media\website_logo.png"></a><p>Billie eilish</p></div>
+
+
+           <div class="bin"><a href="mini-player.html"> <img style="height: 100px ; weidth: 100px ; border-radius: 50%;" src="media\popular artists\bruno mars.jpg"> <img class="main-image" style="height: 100px ; weidth: 100px ; " src="media\website_logo.png"></a><p>bruno mars</p></div>
+
+
+           <div class="bin"><a href="mini-player.html"> <img style="height: 100px ; weidth: 100px ; border-radius: 50%;" src="media\popular artists\Camila Cabello.jpg"> <img class="main-image" style="height: 100px ; weidth: 100px ; " src="media\website_logo.png"></a><p>Camila Cabello</p></div>
+
+
+           <div class="bin"><a href="mini-player.html"> <img style="height: 100px ; weidth: 100px ; border-radius: 50%;" src="media\popular artists\ed sheeran.jpg"> <img class="main-image" style="height: 100px ; weidth: 100px ; " src="media\website_logo.png"></a><p>Ed sheeran</p></div>
+
+
+           <div class="bin"><a href="mini-player.html"> <img style="height: 100px ; weidth: 100px ; border-radius: 50%;" src="media\popular artists\eminem.jpg"> <img class="main-image" style="height: 100px ; weidth: 100px ; " src="media\website_logo.png"></a><p>Ft Eminem</p></div>
+        </div>
+      
+
+
+
+        <div class="stations">
+        
+        <div class="art1">
+          <div>
+          <div style="height: 20px ; width: 100px ; background-color: yellow; padding: 20px; align-content: center; margin-left: 10%; margin-top: 20%;" >   
+       <div style="height: 30px ; width: 70px ; background-color: darkred;padding: 20px ; align-content: center; margin-left: -5%; margin-top:17%;"> 
+      <img style="height: 50px ; width: 50px ; background-color: rebeccapurple;padding: 20px ; align-content: center; margin-left: -14%; margin-top:10%; " src="media\j.png">
+      </div>
+          <div class="tm">Stations</div></div>
+        </div></div>
+        <div class="art1"><img style="height: 100px ; weidth: 100px ; border-radius: 50%; opacity: 40%;" src= "media\music themes\love.jpg"> 
+          <div class="tm">love</div>  </div>           
+        <div class="art1"><img style="height: 100px ; weidth: 100px ; border-radius: 50%; opacity: 40%;" src= "media\music themes\retro.jpg">
+        <div class="tm">retro</div>   </div>  
+        <div class="art1"><img style="height: 100px ; weidth: 100px ; border-radius: 50%; opacity: 40%;" src= "media\music themes\chill.jpg">
+        <div class="tm">chill</div>   </div>  
+        <div class="art1"><img style="height: 100px ; weidth: 100px ; border-radius: 50%; opacity: 40%;" src= "media\music themes\workout.jpg">
+        <div class="tm">workout</div> </div>
+        <div class="art1"><img style="height: 100px ; weidth: 100px ; border-radius: 50%; opacity: 40%;" src= "media\music themes\rock.jpg">
+        <div class="tm">rock</div>    </div>           
+        <div class="art1"><img style="height: 100px ; weidth: 100px ; border-radius: 50%; opacity: 40%;" src= "media\music themes\pop.jpg">
+        <div class="tm">pop</div>     </div>
+
+        </div>
+
+        <!-- <div class="PER"> -->
+          <div class="kk">
+          
+          <div class="frame"><img src="media\music themes 2\party.jpg">
+          <div class="text">Party</div></div>
+          <div class="frame"><img src="media\music themes 2\electronic.jpg">
+          <div class="text">Electronics</div></div>
+          <div class="frame"><img src="media\music themes 2\road.jpg">
+          <div class="text">Road Trip</div></div>
+          
+          
+          
+          
+          </div>
+        <div class="Popular-Artist">
+          
+          <h2>Latest English</h2></div>
+
+          <div class="en-list">
+            <div><img style="height:100px; width:130px;" src="media\latest english\I'll Wait.jpg">
+              <div class="tm">I'll Wait<p>12 aug 2017</p></div></div>
+            <div><img style="height:100px; width:130px;" src="media\latest english\ily.jpg">
+              <div class="tm">ily<p>12 aug 2017</p></div></div>
+            <div><img style="height:100px; width:130px;" src="media\latest english\let me go.jpg">
+              <div class="tm">let me go<p>12 aug 2017</p></div></div>
+            <div><img style="height:100px; width:130px;" src="media\latest english\qurantine clean.jpg">
+              <div class="tm">qurantine clean<p>12 aug 2017</p></div></div>
+            <div><img style="height:100px; width:130px;" src="media\latest english\roar.jpg">
+              <div class="tm">roar<p>12 aug 2017</p></div></div>
+            <div><img style="height:100px; width:130px;" src="media\latest english\toosie slide.jpg">
+              <div class="tm">toosie slide<p>12 aug 2017</p></div></div>
+          </div>
+
+        <div class="Popular-Artist">
+          
+          <h2>Latest Hindi</h2></div>
+
+          <div class="en-list">
+            <div><img style="height:100px; width:130px;" src="media\latest hindi\baarish.jpeg">
+              <div class="tm">Baarish<p>12 aug 2017</p></div></div>
+            <div><img style="height:100px; width:130px;" src="media\latest hindi\galiyaan.jpg">
+              <div class="tm">Galiyaan<p>12 aug 2017</p></div></div>
+            <div><img style="height:100px; width:130px;" src="media\latest hindi\giveme some sunshine.jpg">
+              <div class="tm">Giveme some sunshine<p>12 aug 2017</p></div></div>
+            <div><img style="height:100px; width:130px;" src="media\latest hindi\kaun tujhe.jpg">
+              <div class="tm">Kaun tujhe<p>12 aug 2017</p></div></div>
+            <div><img style="height:100px; width:130px;" src="media\latest hindi\tera ban jaunga.jpg">
+              <div class="tm">Tera ban jaunga<p>12 aug 2017</p></div></div>
+            <div><img style="height:100px; width:130px;" src="media\latest hindi\tere sang yara.jpg">
+              <div class="tm">Tere sang yara<p>12 aug 2017</p></div></div>
+          </div>
+        </div>
+
+
+    
+    
+        <div class="Q">
+        <div class="ql"> 
+        
+         
+          <ol>
+        <li> <div class="cont"> <div> <img class="im" src="media\songs\DaBaby.jpg">   <div class="lm"> <h class="h">Brown Rang     </h><p class="p"> - Honey Singh </p> </div>  </div> <div class="btnn"> 
+                            <div class="image-container" style="margin-left: 300%;">
+                            <img style="height: 20px; width: 20px;" src="media\heart.png" alt="Original Image" class="original-image">
+                            <img style="height: 20px; width: 20px;" src="media\heartlike.png" alt="Hover Image" class="hover-image">
+                            </div>  
+        </div> </div> </li>
+        <li> <div class="cont"> <div> <img class="im" src="media\songs\dynamite.jpg"> <div class="lm"> <h class="h"> blue eyes     </h><p class="p"> - Honey Singh </p> </div>  </div><div class="btnn"> 
+                            <div class="image-container" style="margin-left: 300%;">
+                            <img style="height: 20px; width: 20px;" src="media\heart.png" alt="Original Image" class="original-image">
+                            <img style="height: 20px; width: 20px;" src="media\heartlike.png" alt="Hover Image" class="hover-image">
+                            </div>
+       </div> </div>   </li>
+        <li> <div class="cont"> <div> <img class="im" src="media\songs\falling.jpg">  <div class="lm"> <h class="h"> hasi ban gaye </h><p class="p"> - Honey Singh </p> </div>  </div><div class="btnn"> 
+                            <div class="image-container" style="margin-left: 300%;">
+                            <img style="height: 20px; width: 20px;" src="media\heart.png" alt="Original Image" class="original-image">
+                            <img style="height: 20px; width: 20px;" src="media\heartlike.png" alt="Hover Image" class="hover-image">
+                            </div>
+        </div> </div>   </li>
+        <li> <div class="cont"> <div> <img class="im" src="media\songs\havana.jpg">   <div class="lm"> <h class="h"> desi kalakar  </h><p class="p"> - Honey Singh </p> </div>  </div><div class="btnn"> 
+                                      <div class="image-container" style="margin-left: 300%;">
+                            <img style="height: 20px; width: 20px;" src="media\heart.png" alt="Original Image" class="original-image">
+                            <img style="height: 20px; width: 20px;" src="media\heartlike.png" alt="Hover Image" class="hover-image">
+                            </div>
+        </div> </div>   </li>
+        <li> <div class="cont"> <div> <img class="im" src="media\songs\havana.jpg">   <div class="lm"> <h class="h"> khiladi 786   </h><p class="p"> - Honey Singh </p> </div>  </div><div class="btnn"> 
+                                      <div class="image-container" style="margin-left: 300%;">
+                            <img style="height: 20px; width: 20px;" src="media\heart.png" alt="Original Image" class="original-image">
+                            <img style="height: 20px; width: 20px;" src="media\heartlike.png" alt="Hover Image" class="hover-image">
+                            </div>
+                          </div> </div>   </li>
+        <li> <div class="cont"> <div> <img class="im" src="media\songs\DaBaby.jpg">   <div class="lm"> <h class="h">Brown Rang     </h><p class="p"> - Honey Singh </p> </div>  </div> <div class="btnn"> 
+                            <div class="image-container" style="margin-left: 300%;">
+                            <img style="height: 20px; width: 20px;" src="media\heart.png" alt="Original Image" class="original-image">
+                            <img style="height: 20px; width: 20px;" src="media\heartlike.png" alt="Hover Image" class="hover-image">
+                            </div>  
+        </div> </div> </li>
+        <li> <div class="cont"> <div> <img class="im" src="media\songs\dynamite.jpg"> <div class="lm"> <h class="h"> blue eyes     </h><p class="p"> - Honey Singh </p> </div>  </div><div class="btnn"> 
+                            <div class="image-container" style="margin-left: 300%;">
+                            <img style="height: 20px; width: 20px;" src="media\heart.png" alt="Original Image" class="original-image">
+                            <img style="height: 20px; width: 20px;" src="media\heartlike.png" alt="Hover Image" class="hover-image">
+                            </div>
+       </div> </div>   </li>
+        <li> <div class="cont"> <div> <img class="im" src="media\songs\falling.jpg">  <div class="lm"> <h class="h"> hasi ban gaye </h><p class="p"> - Honey Singh </p> </div>  </div><div class="btnn"> 
+                            <div class="image-container" style="margin-left: 300%;">
+                            <img style="height: 20px; width: 20px;" src="media\heart.png" alt="Original Image" class="original-image">
+                            <img style="height: 20px; width: 20px;" src="media\heartlike.png" alt="Hover Image" class="hover-image">
+                            </div>
+        </div> </div>   </li>
+        <li> <div class="cont"> <div> <img class="im" src="media\songs\havana.jpg">   <div class="lm"> <h class="h"> desi kalakar  </h><p class="p"> - Honey Singh </p> </div>  </div><div class="btnn"> 
+                                      <div class="image-container" style="margin-left: 300%;">
+                            <img style="height: 20px; width: 20px;" src="media\heart.png" alt="Original Image" class="original-image">
+                            <img style="height: 20px; width: 20px;" src="media\heartlike.png" alt="Hover Image" class="hover-image">
+                            </div>
+        </div> </div>   </li>
+        <li> <div class="cont"> <div> <img class="im" src="media\songs\havana.jpg">   <div class="lm"> <h class="h"> khiladi 786   </h><p class="p"> - Honey Singh </p> </div>  </div><div class="btnn"> 
+                                      <div class="image-container" style="margin-left: 300%;">
+                            <img style="height: 20px; width: 20px;" src="media\heart.png" alt="Original Image" class="original-image">
+                            <img style="height: 20px; width: 20px;" src="media\heartlike.png" alt="Hover Image" class="hover-image">
+                            </div>
+        </div> </div>   </li>
+      <li> <div class="cont"> <div> <img class="im" src="media\songs\DaBaby.jpg">   <div class="lm"> <h class="h">Brown Rang     </h><p class="p"> - Honey Singh </p> </div>  </div> <div class="btnn"> 
+                            <div class="image-container" style="margin-left: 300%;">
+                            <img style="height: 20px; width: 20px;" src="media\heart.png" alt="Original Image" class="original-image">
+                            <img style="height: 20px; width: 20px;" src="media\heartlike.png" alt="Hover Image" class="hover-image">
+                            </div>  
+        </div> </div> </li>
+        <li> <div class="cont"> <div> <img class="im" src="media\songs\dynamite.jpg"> <div class="lm"> <h class="h"> blue eyes     </h><p class="p"> - Honey Singh </p> </div>  </div><div class="btnn"> 
+                            <div class="image-container" style="margin-left: 300%;">
+                            <img style="height: 20px; width: 20px;" src="media\heart.png" alt="Original Image" class="original-image">
+                            <img style="height: 20px; width: 20px;" src="media\heartlike.png" alt="Hover Image" class="hover-image">
+                            </div>
+       </div> </div>   </li>
+        <li> <div class="cont"> <div> <img class="im" src="media\songs\falling.jpg">  <div class="lm"> <h class="h"> hasi ban gaye </h><p class="p"> - Honey Singh </p> </div>  </div><div class="btnn"> 
+                            <div class="image-container" style="margin-left: 300%;">
+                            <img style="height: 20px; width: 20px;" src="media\heart.png" alt="Original Image" class="original-image">
+                            <img style="height: 20px; width: 20px;" src="media\heartlike.png" alt="Hover Image" class="hover-image">
+                            </div>
+        </div> </div>   </li>
+        <li> <div class="cont"> <div> <img class="im" src="media\songs\havana.jpg">   <div class="lm"> <h class="h"> desi kalakar  </h><p class="p"> - Honey Singh </p> </div>  </div><div class="btnn"> 
+                                      <div class="image-container" style="margin-left: 300%;">
+                            <img style="height: 20px; width: 20px;" src="media\heart.png" alt="Original Image" class="original-image">
+                            <img style="height: 20px; width: 20px;" src="media\heartlike.png" alt="Hover Image" class="hover-image">
+                            </div>
+        </div> </div>   </li>
+        <li> <div class="cont"> <div> <img class="im" src="media\songs\havana.jpg">   <div class="lm"> <h class="h"> khiladi 786   </h><p class="p"> - Honey Singh </p> </div>  </div><div class="btnn"> 
+                                      <div class="image-container" style="margin-left: 300%;">
+                            <img style="height: 20px; width: 20px;" src="media\heart.png" alt="Original Image" class="original-image">
+                            <img style="height: 20px; width: 20px;" src="media\heartlike.png" alt="Hover Image" class="hover-image">
+                            </div>
+        </div> </div>   </li>
+      <li> <div class="cont"> <div> <img class="im" src="media\songs\DaBaby.jpg">   <div class="lm"> <h class="h">Brown Rang     </h><p class="p"> - Honey Singh </p> </div>  </div> <div class="btnn"> 
+                            <div class="image-container" style="margin-left: 300%;">
+                            <img style="height: 20px; width: 20px;" src="media\heart.png" alt="Original Image" class="original-image">
+                            <img style="height: 20px; width: 20px;" src="media\heartlike.png" alt="Hover Image" class="hover-image">
+                            </div>  
+        </div> </div> </li>
+        <li> <div class="cont"> <div> <img class="im" src="media\songs\dynamite.jpg"> <div class="lm"> <h class="h"> blue eyes     </h><p class="p"> - Honey Singh </p> </div>  </div><div class="btnn"> 
+                            <div class="image-container" style="margin-left: 300%;">
+                            <img style="height: 20px; width: 20px;" src="media\heart.png" alt="Original Image" class="original-image">
+                            <img style="height: 20px; width: 20px;" src="media\heartlike.png" alt="Hover Image" class="hover-image">
+                            </div>
+       </div> </div>   </li>
+        <li> <div class="cont"> <div> <img class="im" src="media\songs\falling.jpg">  <div class="lm"> <h class="h"> hasi ban gaye </h><p class="p"> - Honey Singh </p> </div>  </div><div class="btnn"> 
+                            <div class="image-container" style="margin-left: 300%;">
+                            <img style="height: 20px; width: 20px;" src="media\heart.png" alt="Original Image" class="original-image">
+                            <img style="height: 20px; width: 20px;" src="media\heartlike.png" alt="Hover Image" class="hover-image">
+                            </div>
+        </div> </div>   </li>
+        <li> <div class="cont"> <div> <img class="im" src="media\songs\havana.jpg">   <div class="lm"> <h class="h"> desi kalakar  </h><p class="p"> - Honey Singh </p> </div>  </div><div class="btnn"> 
+                                      <div class="image-container" style="margin-left: 300%;">
+                            <img style="height: 20px; width: 20px;" src="media\heart.png" alt="Original Image" class="original-image">
+                            <img style="height: 20px; width: 20px;" src="media\heartlike.png" alt="Hover Image" class="hover-image">
+                            </div>
+        </div> </div>   </li>
+        <li> <div class="cont"> <div> <img class="im" src="media\songs\havana.jpg">   <div class="lm"> <h class="h"> khiladi 786   </h><p class="p"> - Honey Singh </p> </div>  </div><div class="btnn"> 
+                                      <div class="image-container" style="margin-left: 300%;">
+                            <img style="height: 20px; width: 20px;" src="media\heart.png" alt="Original Image" class="original-image">
+                            <img style="height: 20px; width: 20px;" src="media\heartlike.png" alt="Hover Image" class="hover-image">
+                            </div>
+        </div> </div>   </li>
+      <li> <div class="cont"> <div> <img class="im" src="media\songs\DaBaby.jpg">   <div class="lm"> <h class="h">Brown Rang     </h><p class="p"> - Honey Singh </p> </div>  </div> <div class="btnn"> 
+                            <div class="image-container" style="margin-left: 300%;">
+                            <img style="height: 20px; width: 20px;" src="media\heart.png" alt="Original Image" class="original-image">
+                            <img style="height: 20px; width: 20px;" src="media\heartlike.png" alt="Hover Image" class="hover-image">
+                            </div>  
+        </div> </div> </li>
+        <li> <div class="cont"> <div> <img class="im" src="media\songs\dynamite.jpg"> <div class="lm"> <h class="h"> blue eyes     </h><p class="p"> - Honey Singh </p> </div>  </div><div class="btnn"> 
+                            <div class="image-container" style="margin-left: 300%;">
+                            <img style="height: 20px; width: 20px;" src="media\heart.png" alt="Original Image" class="original-image">
+                            <img style="height: 20px; width: 20px;" src="media\heartlike.png" alt="Hover Image" class="hover-image">
+                            </div>
+       </div> </div>   </li>
+        <li> <div class="cont"> <div> <img class="im" src="media\songs\falling.jpg">  <div class="lm"> <h class="h"> hasi ban gaye </h><p class="p"> - Honey Singh </p> </div>  </div><div class="btnn"> 
+                            <div class="image-container" style="margin-left: 300%;">
+                            <img style="height: 20px; width: 20px;" src="media\heart.png" alt="Original Image" class="original-image">
+                            <img style="height: 20px; width: 20px;" src="media\heartlike.png" alt="Hover Image" class="hover-image">
+                            </div>
+        </div> </div>   </li>
+        <li> <div class="cont"> <div> <img class="im" src="media\songs\havana.jpg">   <div class="lm"> <h class="h"> desi kalakar  </h><p class="p"> - Honey Singh </p> </div>  </div><div class="btnn"> 
+                                      <div class="image-container" style="margin-left: 300%;">
+                            <img style="height: 20px; width: 20px;" src="media\heart.png" alt="Original Image" class="original-image">
+                            <img style="height: 20px; width: 20px;" src="media\heartlike.png" alt="Hover Image" class="hover-image">
+                            </div>
+        </div> </div>   </li>
+        <li> <div class="cont"> <div> <img class="im" src="media\songs\havana.jpg">   <div class="lm"> <h class="h"> khiladi 786   </h><p class="p"> - Honey Singh </p> </div>  </div><div class="btnn"> 
+                                      <div class="image-container" style="margin-left: 300%;">
+                            <img style="height: 20px; width: 20px;" src="media\heart.png" alt="Original Image" class="original-image">
+                            <img style="height: 20px; width: 20px;" src="media\heartlike.png" alt="Hover Image" class="hover-image">
+                            </div>
+        </div> </div>   </li>
+      <li> <div class="cont"> <div> <img class="im" src="media\songs\DaBaby.jpg">   <div class="lm"> <h class="h">Brown Rang     </h><p class="p"> - Honey Singh </p> </div>  </div> <div class="btnn"> 
+                            <div class="image-container" style="margin-left: 300%;">
+                            <img style="height: 20px; width: 20px;" src="media\heart.png" alt="Original Image" class="original-image">
+                            <img style="height: 20px; width: 20px;" src="media\heartlike.png" alt="Hover Image" class="hover-image">
+                            </div>  
+        </div> </div> </li>
+        <li> <div class="cont"> <div> <img class="im" src="media\songs\dynamite.jpg"> <div class="lm"> <h class="h"> blue eyes     </h><p class="p"> - Honey Singh </p> </div>  </div><div class="btnn"> 
+                            <div class="image-container" style="margin-left: 300%;">
+                            <img style="height: 20px; width: 20px;" src="media\heart.png" alt="Original Image" class="original-image">
+                            <img style="height: 20px; width: 20px;" src="media\heartlike.png" alt="Hover Image" class="hover-image">
+                            </div>
+       </div> </div>   </li>
+        <li> <div class="cont"> <div> <img class="im" src="media\songs\falling.jpg">  <div class="lm"> <h class="h"> hasi ban gaye </h><p class="p"> - Honey Singh </p> </div>  </div><div class="btnn"> 
+                            <div class="image-container" style="margin-left: 300%;">
+                            <img style="height: 20px; width: 20px;" src="media\heart.png" alt="Original Image" class="original-image">
+                            <img style="height: 20px; width: 20px;" src="media\heartlike.png" alt="Hover Image" class="hover-image">
+                            </div>
+        </div> </div>   </li>
+        <li> <div class="cont"> <div> <img class="im" src="media\songs\havana.jpg">   <div class="lm"> <h class="h"> desi kalakar  </h><p class="p"> - Honey Singh </p> </div>  </div><div class="btnn"> 
+                                      <div class="image-container" style="margin-left: 300%;">
+                            <img style="height: 20px; width: 20px;" src="media\heart.png" alt="Original Image" class="original-image">
+                            <img style="height: 20px; width: 20px;" src="media\heartlike.png" alt="Hover Image" class="hover-image">
+                            </div>
+        </div> </div>   </li>
+        <li> <div class="cont"> <div> <img class="im" src="media\songs\havana.jpg">   <div class="lm"> <h class="h"> khiladi 786   </h><p class="p"> - Honey Singh </p> </div>  </div><div class="btnn"> 
+                                      <div class="image-container" style="margin-left: 300%;">
+                            <img style="height: 20px; width: 20px;" src="media\heart.png" alt="Original Image" class="original-image">
+                            <img style="height: 20px; width: 20px;" src="media\heartlike.png" alt="Hover Image" class="hover-image">
+                            </div>
+        </div> </div>   </li>
+      <li> <div class="cont"> <div> <img class="im" src="media\songs\DaBaby.jpg">   <div class="lm"> <h class="h">Brown Rang     </h><p class="p"> - Honey Singh </p> </div>  </div> <div class="btnn"> 
+                            <div class="image-container" style="margin-left: 300%;">
+                            <img style="height: 20px; width: 20px;" src="media\heart.png" alt="Original Image" class="original-image">
+                            <img style="height: 20px; width: 20px;" src="media\heartlike.png" alt="Hover Image" class="hover-image">
+                            </div>  
+        </div> </div> </li>
+        <li> <div class="cont"> <div> <img class="im" src="media\songs\dynamite.jpg"> <div class="lm"> <h class="h"> blue eyes     </h><p class="p"> - Honey Singh </p> </div>  </div><div class="btnn"> 
+                            <div class="image-container" style="margin-left: 300%;">
+                            <img style="height: 20px; width: 20px;" src="media\heart.png" alt="Original Image" class="original-image">
+                            <img style="height: 20px; width: 20px;" src="media\heartlike.png" alt="Hover Image" class="hover-image">
+                            </div>
+       </div> </div>   </li>
+        <li> <div class="cont"> <div> <img class="im" src="media\songs\falling.jpg">  <div class="lm"> <h class="h"> hasi ban gaye </h><p class="p"> - Honey Singh </p> </div>  </div><div class="btnn"> 
+                            <div class="image-container" style="margin-left: 300%;">
+                            <img style="height: 20px; width: 20px;" src="media\heart.png" alt="Original Image" class="original-image">
+                            <img style="height: 20px; width: 20px;" src="media\heartlike.png" alt="Hover Image" class="hover-image">
+                            </div>
+        </div> </div>   </li>
+        <li> <div class="cont"> <div> <img class="im" src="media\songs\havana.jpg">   <div class="lm"> <h class="h"> desi kalakar  </h><p class="p"> - Honey Singh </p> </div>  </div><div class="btnn"> 
+                                      <div class="image-container" style="margin-left: 300%;">
+                            <img style="height: 20px; width: 20px;" src="media\heart.png" alt="Original Image" class="original-image">
+                            <img style="height: 20px; width: 20px;" src="media\heartlike.png" alt="Hover Image" class="hover-image">
+                            </div>
+        </div> </div>   </li>
+        <li> <div class="cont"> <div> <img class="im" src="media\songs\havana.jpg">   <div class="lm"> <h class="h"> khiladi 786   </h><p class="p"> - Honey Singh </p> </div>  </div><div class="btnn"> 
+                                      <div class="image-container" style="margin-left: 300%;">
+                            <img style="height: 20px; width: 20px;" src="media\heart.png" alt="Original Image" class="original-image">
+                            <img style="height: 20px; width: 20px;" src="media\heartlike.png" alt="Hover Image" class="hover-image">
+                            </div>
+        </div> </div>   </li>
+      <li> <div class="cont"> <div> <img class="im" src="media\songs\DaBaby.jpg">   <div class="lm"> <h class="h">Brown Rang     </h><p class="p"> - Honey Singh </p> </div>  </div> <div class="btnn"> 
+                            <div class="image-container" style="margin-left: 300%;">
+                            <img style="height: 20px; width: 20px;" src="media\heart.png" alt="Original Image" class="original-image">
+                            <img style="height: 20px; width: 20px;" src="media\heartlike.png" alt="Hover Image" class="hover-image">
+                            </div>  
+        </div> </div> </li>
+        <li> <div class="cont"> <div> <img class="im" src="media\songs\dynamite.jpg"> <div class="lm"> <h class="h"> blue eyes     </h><p class="p"> - Honey Singh </p> </div>  </div><div class="btnn"> 
+                            <div class="image-container" style="margin-left: 300%;">
+                            <img style="height: 20px; width: 20px;" src="media\heart.png" alt="Original Image" class="original-image">
+                            <img style="height: 20px; width: 20px;" src="media\heartlike.png" alt="Hover Image" class="hover-image">
+                            </div>
+       </div> </div>   </li>
+        <li> <div class="cont"> <div> <img class="im" src="media\songs\falling.jpg">  <div class="lm"> <h class="h"> hasi ban gaye </h><p class="p"> - Honey Singh </p> </div>  </div><div class="btnn"> 
+                            <div class="image-container" style="margin-left: 300%;">
+                            <img style="height: 20px; width: 20px;" src="media\heart.png" alt="Original Image" class="original-image">
+                            <img style="height: 20px; width: 20px;" src="media\heartlike.png" alt="Hover Image" class="hover-image">
+                            </div>
+        </div> </div>   </li>
+        <li> <div class="cont"> <div> <img class="im" src="media\songs\havana.jpg">   <div class="lm"> <h class="h"> desi kalakar  </h><p class="p"> - Honey Singh </p> </div>  </div><div class="btnn"> 
+                                      <div class="image-container" style="margin-left: 300%;">
+                            <img style="height: 20px; width: 20px;" src="media\heart.png" alt="Original Image" class="original-image">
+                            <img style="height: 20px; width: 20px;" src="media\heartlike.png" alt="Hover Image" class="hover-image">
+                            </div>
+        </div> </div>   </li>
+        <li> <div class="cont"> <div> <img class="im" src="media\songs\havana.jpg">   <div class="lm"> <h class="h"> khiladi 786   </h><p class="p"> - Honey Singh </p> </div>  </div><div class="btnn"> 
+                                      <div class="image-container" style="margin-left: 300%;">
+                            <img style="height: 20px; width: 20px;" src="media\heart.png" alt="Original Image" class="original-image">
+                            <img style="height: 20px; width: 20px;" src="media\heartlike.png" alt="Hover Image" class="hover-image">
+                            </div>
+        </div> </div>   </li>
+      <li> <div class="cont"> <div> <img class="im" src="media\songs\DaBaby.jpg">   <div class="lm"> <h class="h">Brown Rang     </h><p class="p"> - Honey Singh </p> </div>  </div> <div class="btnn"> 
+                            <div class="image-container" style="margin-left: 300%;">
+                            <img style="height: 20px; width: 20px;" src="media\heart.png" alt="Original Image" class="original-image">
+                            <img style="height: 20px; width: 20px;" src="media\heartlike.png" alt="Hover Image" class="hover-image">
+                            </div>  
+        </div> </div> </li>
+        <li> <div class="cont"> <div> <img class="im" src="media\songs\dynamite.jpg"> <div class="lm"> <h class="h"> blue eyes     </h><p class="p"> - Honey Singh </p> </div>  </div><div class="btnn"> 
+                            <div class="image-container" style="margin-left: 300%;">
+                            <img style="height: 20px; width: 20px;" src="media\heart.png" alt="Original Image" class="original-image">
+                            <img style="height: 20px; width: 20px;" src="media\heartlike.png" alt="Hover Image" class="hover-image">
+                            </div>
+       </div> </div>   </li>
+        <li> <div class="cont"> <div> <img class="im" src="media\songs\falling.jpg">  <div class="lm"> <h class="h"> hasi ban gaye </h><p class="p"> - Honey Singh </p> </div>  </div><div class="btnn"> 
+                            <div class="image-container" style="margin-left: 300%;">
+                            <img style="height: 20px; width: 20px;" src="media\heart.png" alt="Original Image" class="original-image">
+                            <img style="height: 20px; width: 20px;" src="media\heartlike.png" alt="Hover Image" class="hover-image">
+                            </div>
+        </div> </div>   </li>
+        <li> <div class="cont"> <div> <img class="im" src="media\songs\havana.jpg">   <div class="lm"> <h class="h"> desi kalakar  </h><p class="p"> - Honey Singh </p> </div>  </div><div class="btnn"> 
+                                      <div class="image-container" style="margin-left: 300%;">
+                            <img style="height: 20px; width: 20px;" src="media\heart.png" alt="Original Image" class="original-image">
+                            <img style="height: 20px; width: 20px;" src="media\heartlike.png" alt="Hover Image" class="hover-image">
+                            </div>
+        </div> </div>   </li>
+        <li> <div class="cont"> <div> <img class="im" src="media\songs\havana.jpg">   <div class="lm"> <h class="h"> khiladi 786   </h><p class="p"> - Honey Singh </p> </div>  </div><div class="btnn"> 
+                                      <div class="image-container" style="margin-left: 300%;">
+                            <img style="height: 20px; width: 20px;" src="media\heart.png" alt="Original Image" class="original-image">
+                            <img style="height: 20px; width: 20px;" src="media\heartlike.png" alt="Hover Image" class="hover-image">
+                            </div>
+        </div> </div>   </li>
+      <li> <div class="cont"> <div> <img class="im" src="media\songs\DaBaby.jpg">   <div class="lm"> <h class="h">Brown Rang     </h><p class="p"> - Honey Singh </p> </div>  </div> <div class="btnn"> 
+                            <div class="image-container" style="margin-left: 300%;">
+                            <img style="height: 20px; width: 20px;" src="media\heart.png" alt="Original Image" class="original-image">
+                            <img style="height: 20px; width: 20px;" src="media\heartlike.png" alt="Hover Image" class="hover-image">
+                            </div>  
+        </div> </div> </li>
+        <li> <div class="cont"> <div> <img class="im" src="media\songs\dynamite.jpg"> <div class="lm"> <h class="h"> blue eyes     </h><p class="p"> - Honey Singh </p> </div>  </div><div class="btnn"> 
+                            <div class="image-container" style="margin-left: 300%;">
+                            <img style="height: 20px; width: 20px;" src="media\heart.png" alt="Original Image" class="original-image">
+                            <img style="height: 20px; width: 20px;" src="media\heartlike.png" alt="Hover Image" class="hover-image">
+                            </div>
+       </div> </div>   </li>
+        <li> <div class="cont"> <div> <img class="im" src="media\songs\falling.jpg">  <div class="lm"> <h class="h"> hasi ban gaye </h><p class="p"> - Honey Singh </p> </div>  </div><div class="btnn"> 
+                            <div class="image-container" style="margin-left: 300%;">
+                            <img style="height: 20px; width: 20px;" src="media\heart.png" alt="Original Image" class="original-image">
+                            <img style="height: 20px; width: 20px;" src="media\heartlike.png" alt="Hover Image" class="hover-image">
+                            </div>
+        </div> </div>   </li>
+        <li> <div class="cont"> <div> <img class="im" src="media\songs\havana.jpg">   <div class="lm"> <h class="h"> desi kalakar  </h><p class="p"> - Honey Singh </p> </div>  </div><div class="btnn"> 
+                                      <div class="image-container" style="margin-left: 300%;">
+                            <img style="height: 20px; width: 20px;" src="media\heart.png" alt="Original Image" class="original-image">
+                            <img style="height: 20px; width: 20px;" src="media\heartlike.png" alt="Hover Image" class="hover-image">
+                            </div>
+        </div> </div>   </li>
+        <li> <div class="cont"> <div> <img class="im" src="media\songs\havana.jpg">   <div class="lm"> <h class="h"> khiladi 786   </h><p class="p"> - Honey Singh </p> </div>  </div><div class="btnn"> 
+                                      <div class="image-container" style="margin-left: 300%;">
+                            <img style="height: 20px; width: 20px;" src="media\heart.png" alt="Original Image" class="original-image">
+                            <img style="height: 20px; width: 20px;" src="media\heartlike.png" alt="Hover Image" class="hover-image">
+                            </div>
+        </div> </div>   </li>
+
+          
+
+
+
+      </ol>
+      </div>
+      </div>
+
+
+
+      <div>
+
+<!-- Navigation drawer -->
+<div id="mySidenav" class="sidenav">
+
+  
+  <a href="#"><img class="onee" src="media\songs\havana.jpg">  </a>
+<div class="hs"><h>Brawn Rang</h> <p>Yo Yo Honey Singh</p></div>
+<div class="image-container">
+    <img style="height: 20px; width: 20px;" src="media\heart.png" alt="Original Image" class="original-image">
+    <img style="height: 20px; width: 20px;" src="media\heartlike.png" alt="Hover Image" class="hover-image">
+  </div>
+
+  <div class="image-con"><a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><img style="height: 22px; width:26px;" src="media\cross.png"></a> 
+  </div>
+  <div> <img style="height: 60px; width: 400px; margin-left: 60%;" src="media\playpaus.png"></div>
+  <div><h style= "color:white;  margin-left: -50%;">1:45</h><input style="margin-top: 12%;width: 600px; margin-left: 0%;" type="range" min="0" max="100" class="bottom-[3.875rem] hidden " value="100" style="--min: 0; --max: 100; --val: 100;"><h style= "color:white;">4:40</h></div>
+  <div><img style="height: 40px; width: 100px; margin-left: -200%;" src="media\tapmenu.png"></div>
+  <div><input style="margin-top: 21%;width: 60px; margin-left: -320%;" type="range" min="0" max="100" class="bottom-[3.875rem] hidden " value="100" style="--min: 0; --max: 100; --val: 100;"></div>
+  <div><img style="height: 30px; width: 35px; margin-left: -570%; margin-top: 15%;" src="media\big.png"></div>
+</div>
+</div>
+
+
+      </div>
+    
+  </body>
+
+  <script src="script.js"></script>
+</html>

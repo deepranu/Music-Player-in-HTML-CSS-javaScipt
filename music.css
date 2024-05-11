@@ -1,0 +1,1016 @@
+.bd
+{
+	background-color: hsl(231.11deg 52.94% 10%);
+}
+
+
+.logo
+{
+  border-radius: 50%;
+  max-height: 100px;
+  max-width: 100px;
+  
+}
+.bell
+{
+  
+  height:25px;
+  width: 25px;
+  margin-top: -15px;
+  margin-left: 84%;
+}
+.dp
+{
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  margin-top: -23px;
+  margin-left: 600px;
+
+}
+.ds
+{
+  margin-top: -50px;
+  margin-left: 50px;
+
+}
+.title
+{
+  text-decoration: none;
+  color: whitesmoke;
+  font-family: sans-serif;
+}
+.favourite
+{
+  margin-top: -55px;
+  margin-left: 230px;
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.voice
+{
+  max-height: 20px;
+  max-width: 20px;
+  
+  background: transparent;
+  
+
+}
+
+
+.voice1 
+{
+  height: 25px;
+  width: 25px;
+  
+  background: transparent;
+  border: none;
+
+}
+
+.bar 
+{
+  height:25px;
+  width: 230px;
+  background: transparent;
+  border: none;
+
+ 
+}
+
+.search-box
+{
+  margin-left: 60%;
+  margin-right: 15%;
+  margin-top: 20px;
+  height: 30px;
+  border: none;
+  border-radius: 10% ;
+  background-color: hsl(230.45deg 55% 15.69%);
+}
+
+.carousel1
+{
+  height: 20%;
+  width: 20%;
+  margin-left: 10%;
+  transform:translateX(45deg) ;
+
+
+
+}
+
+
+
+/*.co{
+    width: 40%;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    overflow: hidden;
+}
+*/
+.imgCo{
+    width: 60%;
+    height: 250px;
+    position: absolute;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+}
+
+.slide_div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+/*    margin: 0 -10px 0 -10px;*/
+}
+
+.img{
+    position: relative;
+    width:180px;
+    height:150px;
+    filter: saturate(10%);
+    transition: 0.7s;
+    background-color: rgba(0, 0, 0, 0.4);
+    
+}
+
+.button{
+    position: absolute;
+    width:180px;
+    height:150px;
+    transition: 0.7s;
+    background-color: rgba(0, 0, 0, 0.4);
+    
+}
+
+.button:hover{
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+#slider1:target ~ .imgCo #img1,
+#slider1:target ~ .imgCo #button1{
+    width: 300px;
+    height: 270px;
+    background-color: transparent;
+    filter: saturate(100%);
+}
+
+#slider2:target ~ .imgCo #img2,
+#slider2:target ~ .imgCo #button2{
+   width: 300px;
+    height: 270px;
+    background-color: transparent;
+    filter: saturate(100%);
+}
+
+#slider3:target ~ .imgCo #img3,
+#slider3:target ~ .imgCo #button3{
+     width: 300px;
+    height: 270px;
+    background-color: transparent;
+    filter: saturate(100%);
+}
+
+
+
+#slider1:target ~ .imgCo{
+    left: 5%;
+}
+#slider2:target ~ .imgCo{
+    left: 0%;
+}
+#slider3:target ~ .imgCo{
+    left: -5%;
+}
+
+
+/*.img{height: 20px;}*/
+
+
+.main
+{
+  width: 60%;
+  height: 100vh;
+  margin-right: 40%;
+}
+
+.Q
+{
+  color: whitesmoke ;
+  width: 30%;
+  height: 100vh;
+  margin-left: 70%;
+  margin-top: -35%;
+  display: flex;
+  overflow-y: scroll;
+  overflow-x: hidden;
+/*  padding-top: 20px;*/
+}
+.im
+{
+  width: 50px;
+  height: 50px;
+  margin-left: -10%;
+
+}
+
+
+
+.bd::-webkit-scrollbar{
+  display: none;
+}
+
+
+.Q::-webkit-scrollbar{
+  display: none;
+
+}
+
+
+.btn
+{
+  width: 20px;
+  height: 20px;
+  margin-left: 300%;
+  margin-top: -80%;
+  background-image:url("media\heart.png");
+
+  
+}
+
+.btn:hover {
+  background-image: url("media\heartlike.png");
+  width: 25px;
+  height: 25px;
+
+
+}
+
+
+
+.lm
+{
+  margin-left: 60%;
+  margin-top: -60%;
+  
+  width: 100%;
+  padding: 10px;
+}
+.h
+{
+  font-size: 15px;
+
+}
+.p
+
+{
+  font-size: 10px;
+}
+
+.btnn
+{
+  
+  margin-left: 30%;
+  margin-top: -50%;
+
+  
+}
+.cont
+{
+  padding: 30px;
+}
+h6
+{
+  margin-top: -70%;
+  margin-left: -20%; 
+}
+
+.im:hover
+{
+  opacity: 0.2;
+  width: 55px;
+  height: 55px;
+ 
+}
+
+
+.qu
+{
+  margin-left: 110%;
+  color: whitesmoke;
+
+}
+
+.dropdown
+{
+  margin-left: 145%;
+  margin-top: -5%;
+}
+
+
+.dropbtn {
+  background:transparent;
+  color: Green;
+  font-size: 16px;
+  border: none;
+
+  
+}
+  
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: floralwhite;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius: 5px;
+   
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  border-radius: 5px;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {color: greenyellow;}
+
+
+
+.lr
+{
+  color: whitesmoke;
+  margin-top: 25%;
+  margin-left: 10%;
+}
+
+.latest-songs-list
+{
+  display: flex;
+ 
+/*  flex-wrap: wrap;*/
+/*  gap: 2em;*/
+
+
+/*display: inline;*/
+margin-left: 5%;
+
+}
+
+.latest-songs-list1
+{
+  display: flex;
+ 
+/*  flex-wrap: wrap;*/
+/*  gap: 2em;*/
+
+
+/*display: inline;*/
+margin-left: 5%;
+margin-top: 5%;
+
+}
+
+
+
+.one-c
+{
+  display:flex;
+  width: 100%;
+  height: 100%;
+
+}
+
+.one-i1 
+{
+  width: 70px;
+  height: 70px;
+/*  float: left;*/
+margin-left: 10%;
+
+
+}
+
+.one-c h
+{ 
+
+  color: whitesmoke;
+  font-family: sans-serif;
+  margin-left: 2%;
+  margin-top: 2%;
+  width: 10%;
+  
+
+
+   
+}
+.one-c p
+{
+  color: whitesmoke;
+  margin-left: -9%;
+  margin-top: 15%;
+  font-size: 10px;
+  width: 50%;
+  
+
+
+  
+}
+
+.one-i2 
+{
+  width: 50px;
+  height: 50px;
+/*  float: left;*/
+  
+
+}
+
+.one-c h5
+{
+  color: whitesmoke;
+ 
+  width: 45px;
+  height: 45px;
+  margin-top: 10%;
+  margin-left: -12%;
+
+
+}
+
+
+.dropdown1
+{
+  margin-left: 21%;
+  margin-top: -1%;
+}
+
+
+.dropbtn1 {
+  background:transparent;
+ 
+ 
+  border: none;
+
+  
+}
+  
+.dropdown-content1 {
+  display: none;
+  position: absolute;
+  background-color: whitesmoke;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius: 5px;
+   
+}
+
+.dropdown-content1 a {
+  color: black;
+  padding: 5px 10px;
+  text-decoration: none;
+  display: block;
+  border-radius: 5px;
+   font-size: 12px;
+
+}
+
+.dropdown-content1 a:hover {background-color:paleturquoise;}
+.dropdown1:hover .dropdown-content1 {display: block;}
+
+.arist-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-left: 8%;
+         text-align: center;
+    }
+
+    .bin {
+        position: relative;
+        margin: 8px;
+        color: whitesmoke;
+        justify-content: center;
+    }
+
+    .bin:hover .main-image {
+        opacity: 1;
+    }
+
+    .bin:hover {
+        opacity: 0.7;
+    }
+
+    .main-image {
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        transition: opacity 0.3s ease-in-out;
+    }
+
+.stations
+{ 
+  margin-top: 5%;
+  width: 115%;
+  margin-left: 7%;
+  display: flex;
+  background-color: hsl(232.8deg 60.98% 16.08%);
+  text-align: center;
+
+ 
+
+}
+.art2
+{
+  
+  color: whitesmoke;
+  
+  
+/*  overflow: auto;*/
+}
+.art1 img
+{
+  
+  
+  border: 1px solid black;
+  margin-left: 20px;
+}
+
+.PER
+{
+  display: flex;
+  
+}
+
+.PER img
+{ 
+  margin-top: 10%;
+  width: 293px;
+  height: 150px;
+  margin-left: 20%;
+  text-align: center;
+  color: whitesmoke;
+}
+.en-list
+{
+  display: flex;
+  margin-left: 7%;
+   text-align: left;
+
+}
+.en-list img
+{ 
+  
+  width: 130px;
+  height: 100px;
+  margin: 10px;
+  border-radius: 6%;
+
+
+}
+
+}
+.en-list-div p
+{
+  margin-top: 0%;
+  font-size: 12px;
+}
+.Popular-Artist
+{
+  color: whitesmoke;
+  margin-left: 10%;
+  margin-top: 10%;
+}
+.english
+{
+  
+  color: whitesmoke;
+  margin-left: 10%;
+}
+
+
+.sidenav {
+    
+    position: fixed;
+    bottom: -250px;
+    background-color: hsl(0deg 0% 15.69%);
+    overflow-y: auto;
+    transition: bottom 0.3s;
+    z-index: 1;
+    display: flex;
+
+  }
+  
+  /* Styles for the button */
+  .open-btn {
+    position: absolute;
+    z-index: 2;
+  }
+
+
+  .onee
+{
+  width: 70px;
+  height: 70px;
+/*  float: left;*/
+margin-left: 10%;
+margin-top: 20%;
+
+}
+
+
+.image-container {
+  position: relative;
+  width: 20px; /* Adjust as needed */
+  height: 20px; /* Adjust as needed */
+  margin-left: 1%;
+}
+
+.hover-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.image-container:hover .hover-image {
+  opacity: 1;
+}
+
+.hs
+{
+    margin-left: 2%;
+    color: whitesmoke;
+}
+.hs ,.hs p , .image-container , .image-con
+{
+  margin-top: 1%;
+ 
+}
+
+.one-c-i {
+  position: relative;
+  display: inline-block;
+  margin-left: 10%;
+}
+
+.background-image, .main-image, .secondary-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: opacity 0.3s ease;
+}
+
+.main-image, .secondary-image {
+  opacity: 0;
+}
+
+.one-c-i.clicked .background-image {
+  opacity: 0.3;
+}
+.one-c-i:hover .main-image
+{
+  opacity: 1;
+
+}
+
+.one-c-i:hover  .background-image
+{
+  opacity: 0.3;
+}
+
+.one-c h 
+{
+  margin-left: 20%;
+}
+.one-c-i h p
+{
+  margin-left: 20%;
+}
+
+.kk
+{
+  display: flex;
+  margin-top: 5%;
+  margin-left: 10%;
+  align-content: center;
+
+}
+
+
+  .frame {
+    width: 400px;
+    height: 100px;
+    overflow: hidden;
+    position: relative;
+    margin: 10px;
+
+
+    
+  } 
+  
+  .frame img {
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+    opacity: 0.6;
+
+  }
+  
+  .frame:hover img {
+    transform: scale(1.2);
+    opacity: 0.3;
+  }
+  
+  .text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white; /* Text color */
+    font-size: 20px; /* Adjust font size */
+    text-align: center; /* Center the text */
+    pointer-events: none; /* Make sure the text does not interfere with hover effect */
+  }
+
+  .tm
+  {
+    color: whitesmoke;
+    margin-left: 7%;
+  }
+
+  .en-list p 
+  {
+    font-size: 12px;
+    margin-top: 1%;
+  }
+
+
+
+
+/*second site*/
+
+
+#bod {
+
+ 
+    background-image: url("media/background_image/2725544.jpg");
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+
+}
+#bod::-webkit-scrollbar{
+  display: none;
+}
+
+
+.con1 {
+  height: 300px;
+  width: 900px;
+  background-color: #121d43;
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.5);
+  position: relative; /* Ensure position is set for overlay */
+  
+}
+
+.con1 img {
+  height: 300px;
+  width: 300px;
+  filter: grayscale(20%) sepia(40%) contrast(0.8) brightness(0.9); /* Apply vintage effect */
+  position: absolute; /* Position the image within its container */
+  top: 0;
+  left: 0;
+  border-radius: 5px 5px 100px 150px;
+
+  
+}
+.head
+
+{
+  height: 300px;
+  width: 500px;
+  margin-left: 35%;
+  color: whitesmoke;
+
+}
+.head h2
+{
+  font-family: sans-serif;
+
+}
+
+.head h 
+{
+  margin-left: 10%;
+
+}
+.head p 
+{
+  margin-left: 10%;
+
+  margin-top: -4%;
+}
+
+
+
+
+
+
+
+
+
+.bten {
+  border: 1px solid black;
+  background-color: blueviolet;
+  color: whitesmoke;
+  padding: 7px 14px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10%;
+
+}
+
+
+.head button
+{
+  margin-left: 10%;
+}
+
+.head button:hover
+{
+  background-color: rebeccapurple;
+}
+.Qn
+{
+  width: 900px;
+  color: whitesmoke;
+  position: relative;
+  display: inline-block;
+  overflow-y: auto;
+  height: 100vh
+  
+}
+
+
+
+.sk
+{
+  display: flex;
+
+
+}
+.Qn::-webkit-scrollbar{
+  display: none;
+}
+
+.qll
+{
+  
+  padding: 20px;
+}
+
+
+.lis
+{
+  display: flex;
+  width:850px ;
+  height: 70px;
+  margin-top: 3%;
+   background-color: #121d43;
+   padding: 10px;
+
+}
+
+.image-containerr {
+  position: relative;
+  width: 20px; /* Adjust as needed */
+  height: 20px; /* Adjust as needed */
+  
+}
+
+.hoverimage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.image-containerr:hover .hoverimage {
+  opacity: 1;
+}
+
+
+.mp
+{
+  display: flex;
+/*  flex-wrap: wrap;*/
+}
+
+.simi
+{
+  height: 300px;
+  width: 400px;
+  
+  margin-left: 10px;
+  margin-top: -25px;
+
+
+
+  }
+
+
+.one-dc
+{
+  width: 100%;
+  display: flex;
+  background-color: transparent;
+
+
+}
+
+.jn {
+  position: relative;
+  display: inline-block;
+  margin-left: 5%;
+}
+
+.background-image, .main-image, .secondary-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: opacity 0.3s ease;
+}
+
+.main-image, .secondary-image {
+  opacity: 0;
+}
+
+.jn.clicked .background-image {
+  opacity: 0.3;
+}
+.jn:hover .main-image
+{
+  opacity: 1;
+
+}
+
+.jn:hover  .background-image
+{
+  opacity: 0.3;
+}
+
+.ld
+{
+ margin-top: 30px;
+}
+
+.simili
+{
+  height: 100vh;
+  width: 400px;
+ 
+  margin-left: 10px;
+  margin-top: 0px;
+}
+
+.Qn2
+{
+   width:380px ;
+  height: 70vh;
+  color: whitesmoke;
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.3);
+   overflow-y: auto;
+
+  
+}
+.lis2 {
+  display: flex;
+  width: 364px;
+  height: 60px;
+  margin-top: 3%;
+  padding: 10px;
+ 
+  justify-content: flex-start; /* Align content to the start (left) */
+}
+
+.Qn2::-webkit-scrollbar{
+  display: none;
+
+
